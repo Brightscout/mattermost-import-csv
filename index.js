@@ -6,9 +6,13 @@ const {
   team,
   channels,
   users,
-  posts,
-  directChannels,
-  directPosts,
+  //
+  // These are not necessary at this
+  // time
+  //
+  // posts,
+  // directChannels,
+  // directPosts,
   end
 } = require('./lib/modules')
 
@@ -42,8 +46,14 @@ start(context)
   .then(team)
   .then(channels)
   .then(users)
-  .then(posts)
-  .then(directChannels)
-  .then(directPosts)
+  .then(end)
+  .catch(abort)
+  //
+  // These are not necessary at this
+  // time
+  //
+  // .then(posts)
+  // .then(directChannels)
+  // .then(directPosts)
   .then(end)
   .catch(abort)

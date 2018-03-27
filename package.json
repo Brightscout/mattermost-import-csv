@@ -1,16 +1,16 @@
 {
-  "name": "mattermost-etl",
+  "name": "mattermost-import-csv",
   "version": "1.0.0",
-  "description": "An ETL framework to migrate data to Mattermost",
+  "description": "A CSV to Bulk Import JSON Converter",
   "author": "Michael DeBonis",
   "license": "MIT",
-  "homepage": "https://github.com/Brightscout/mattermost-etl#readme",
+  "homepage": "https://github.com/Brightscout/mattermost-import-csv#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Brightscout/mattermost-etl.git"
+    "url": "git+https://github.com/Brightscout/mattermost-import-csv.git"
   },
   "bugs": {
-    "url": "https://github.com/Brightscout/mattermost-etl/issues"
+    "url": "https://github.com/Brightscout/mattermost-import-csv/issues"
   },
   "dependencies": {
     "bunyan": "^1.8.10",
