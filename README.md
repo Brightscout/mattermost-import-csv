@@ -28,7 +28,7 @@ Modify the values in `context/config.js` for the source, target
 1. Execute the converter  
 `$ npm start`
 
-2. Inspect the output file, `data.json`, or whatever you set as the target filename. Ensure the results are as [expected](https://docs.mattermost.com/deployment/bulk-loading.html#data-format).
+2. Inspect the output file, `target.json`, or whatever you set as the target filename. Ensure the results are as [expected](https://docs.mattermost.com/deployment/bulk-loading.html#data-format).
 
 ## Import
 
