@@ -21,10 +21,7 @@ An ETL framework to migrate data from Jabber to Mattermost. This utility exports
 
 ## Configure
 
-1. Copy the example config file to config.js  
-`$ cp context/config.example.js context/config.js`
-
-2. Modify the values in `context/config.js` for the source, target, and team properties.
+Modify the values in `context/config.js` for the source, target  
 
 ## Export
 
