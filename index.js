@@ -3,8 +3,8 @@ const log = require('./lib/log')
 const {
   start,
   version,
-  team,
-  channels,
+  // team,
+  // channels,
   users,
   //
   // These are not necessary at this
@@ -43,11 +43,9 @@ process.on('uncaughtException', abort)
 //
 start(context)
   .then(version)
-  .then(team)
-  .then(channels)
+  // .then(team)
+  // .then(channels)
   .then(users)
-  .then(end)
-  .catch(abort)
   //
   // These are not necessary at this
   // time

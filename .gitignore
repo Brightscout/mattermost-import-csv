@@ -26,8 +26,5 @@ node_modules/
 # dotenv environment variables file
 .env
 
-# application config file
-context/config.js
-
 # generated data json file
-data.json
+target.json

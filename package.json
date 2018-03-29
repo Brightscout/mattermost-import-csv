@@ -14,11 +14,10 @@
   },
   "dependencies": {
     "bunyan": "^1.8.10",
+    "csvtojson": "^1.1.9",
     "joi": "^10.6.0",
     "lodash": "^4.17.4",
-    "mssql": "^4.0.4",
-    "slug": "^0.9.1",
-    "xmldoc": "^1.1.0"
+    "slug": "^0.9.1"
   },
   "devDependencies": {
     "chai": "^4.0.2",
