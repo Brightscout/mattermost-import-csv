@@ -34,5 +34,8 @@
     "test-watch": "npm run test -- --watch",
     "test-coverage": "istanbul cover _mocha lib -- --recursive",
     "start": "node index.js | bunyan"
+  },
+  "bin": {
+    "mmcsv2json": "./index.js"
   }
 }

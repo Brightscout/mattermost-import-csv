@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const context = require('./context')
 const log = require('./lib/log')
 const {
