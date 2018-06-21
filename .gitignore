@@ -28,3 +28,12 @@ node_modules/
 
 # generated data json file
 target.json
+
+# Misc
+.bash_history
+.cache
+.config/
+package-lock.json
+proxy.sh
+/source.csv
+/source.xlsx
