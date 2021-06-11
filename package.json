@@ -16,7 +16,7 @@
     "bunyan": "^1.8.10",
     "csvtojson": "^1.1.9",
     "joi": "^10.6.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "slug": "^0.9.1"
   },
   "devDependencies": {
