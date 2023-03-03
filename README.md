@@ -10,7 +10,7 @@ An ETL framework to migrate data from Jabber to Mattermost. This utility exports
 1. Install [Node.js](https://nodejs.org/en/) Version [6.11.0 LTS](https://nodejs.org/en/download/) or greater
 
 2. Clone this repo  
-`$ git clone https://github.com/Brightscout/mattermost-import-csv`
+`$ git clone https://github.com/ngocdoan/mattermost-import-csv`
 
 3. Install dependencies  
 `$ cd mattermost-import-csv`  
